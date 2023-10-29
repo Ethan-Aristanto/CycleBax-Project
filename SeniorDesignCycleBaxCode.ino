@@ -48,6 +48,7 @@ void loop()
 {
   updateSerial(); // update serial with SIM data
   myGNSS.checkUblox(); //See if new data is available. Process bytes as they come in.
+  lockPosition();
 
   //delay(250); // not needed due to built in delay in updateSerial 
 }
