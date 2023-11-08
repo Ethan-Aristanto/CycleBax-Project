@@ -76,11 +76,6 @@ void loop()
     Serial.print(F(" Alt: "));
     Serial.print(altitude);
     Serial.print(F(" (mm)"));
-
-    byte SIV = myGNSS.getSIV();
-    Serial.print(F(" SIV: "));
-    Serial.print(SIV);
-
     Serial.println();
   }
 }
