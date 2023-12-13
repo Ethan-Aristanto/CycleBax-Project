@@ -22,7 +22,7 @@ void setup()
   updateSerial();
   mySerial.println("AT+CMGF=1"); // Configuring TEXT mode
   updateSerial();
-  mySerial.println("AT+CMGS=\"+ZZxxxxxxxxxx\"");//change ZZ with country code and xxxxxxxxxxx with phone number to sms. Currently Ethan Aristanto's phone number
+  mySerial.println("AT+CMGS=\"+ZZxxxxxxxxxx\"");//change ZZ with country code and xxxxxxxxxxx with phone number to sms.
   updateSerial();
   //mySerial.write(26);
 
